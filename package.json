@@ -82,9 +82,6 @@
   "engines": {
     "node": ">=16.14.0"
   },
-  "publishConfig": {
-    "registry": "https://packages.aliyun.com/65af7c6409908504f86d5d9d/npm/npm-registry/"
-  },
   "authors": [
     ""
   ]
