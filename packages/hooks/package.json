@@ -25,12 +25,12 @@
     "test-u": "vitest -u run",
     "update:deps": "pnpm update --interactive --latest"
   },
-  "devDependencies": {},
   "peerDependencies": {
     "@ebaorc/components": "^0",
     "@ebaorc/utils": "^0"
   },
   "publishConfig": {
     "access": "public"
-  }
+  },
+  "gitHead": "8c9e726f1d9593930ba56ed8bedf6b64fd67c8ac"
 }
