@@ -25,10 +25,7 @@
     "test-u": "vitest -u run",
     "update:deps": "pnpm update --interactive --latest"
   },
-  "peerDependencies": {
-    "@ebaorc/components": "^0",
-    "@ebaorc/utils": "^0"
-  },
+  "peerDependencies": {},
   "publishConfig": {
     "access": "public"
   },
