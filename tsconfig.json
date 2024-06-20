@@ -1,0 +1,13 @@
+{
+  "extends": "./tsconfig.base.json",
+  "compilerOptions": {
+    "baseUrl": "./",
+    "paths": {
+      "@@/*": [".dumi/tmp/*"],
+      "hooks": ["./packages/hooks"],
+      "components": ["./packages/components"],
+      "utils": ["./packages/utils"]
+    }
+  },
+  "include": [".dumirc.ts", "packages/*/vitest.setup.ts", "packages/*/src/**/*"]
+}

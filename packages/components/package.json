@@ -1,0 +1,37 @@
+{
+  "name": "@ebaorc/components",
+  "version": "0.0.0",
+  "description": "components",
+  "keywords": [
+    "components"
+  ],
+  "repository": {
+    "type": "git"
+  },
+  "author": "xiezhengyun@ebaolife.com",
+  "main": "./lib/index.js",
+  "module": "./lib/index.js",
+  "types": "./lib/index.d.ts",
+  "typings": "./lib/index.d.ts",
+  "files": [
+    "lib",
+    "CHANGELOG.md",
+    "LICENSE",
+    "README.md",
+    "package.json"
+  ],
+  "scripts": {
+    "build": "father build",
+    "build:watch": "father dev",
+    "doctor": "father doctor",
+    "update:deps": "pnpm update --interactive --latest"
+  },
+  "devDependencies": {},
+  "peerDependencies": {
+    "@ebaorc/hooks": "^0",
+    "@ebaorc/utils": "^0"
+  },
+  "publishConfig": {
+    "access": "public"
+  }
+}

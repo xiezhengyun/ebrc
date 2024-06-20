@@ -1,0 +1,36 @@
+{
+  "name": "@ebaorc/hooks",
+  "version": "0.0.0",
+  "description": "hooks",
+  "keywords": [
+    "hooks"
+  ],
+  "author": "xiezhengyun@ebaolife.com",
+  "main": "./lib/index.js",
+  "module": "./lib/index.js",
+  "types": "./lib/index.d.ts",
+  "typings": "./lib/index.d.ts",
+  "files": [
+    "lib",
+    "CHANGELOG.md",
+    "README.md",
+    "package.json"
+  ],
+  "scripts": {
+    "build": "father build",
+    "build:watch": "father dev",
+    "coverage": "vitest run --coverage",
+    "doctor": "father doctor",
+    "test": "vitest run",
+    "test-u": "vitest -u run",
+    "update:deps": "pnpm update --interactive --latest"
+  },
+  "devDependencies": {},
+  "peerDependencies": {
+    "@ebaorc/components": "^0",
+    "@ebaorc/utils": "^0"
+  },
+  "publishConfig": {
+    "access": "public"
+  }
+}
