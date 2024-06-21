@@ -27,3 +27,8 @@ $ pnpm run docs:build
 - 完成本地npm包调试后，记得将链接断开. `pnpm uninstall --global @ebaorc/utils` (取消项目与本地pnpm包之间的链接)
 - 删除link， pnpm uninstall --global `<package>`
 - 查看全局已链接的包 `npm ls -g --depth=0`
+
+## 版本号
+
+{major}.{minor}.{patch}-{pre-release}
+{主版本号}.{次版本号}.{修补版本号}-{非正式版版本号}
