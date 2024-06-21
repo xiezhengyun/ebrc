@@ -1,6 +1,6 @@
 {
   "name": "@ebaorc/hooks",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "hooks",
   "keywords": [
     "hooks"
@@ -25,7 +25,6 @@
     "test-u": "vitest -u run",
     "update:deps": "pnpm update --interactive --latest"
   },
-  "peerDependencies": {},
   "publishConfig": {
     "access": "public"
   },

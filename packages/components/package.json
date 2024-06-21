@@ -1,6 +1,6 @@
 {
   "name": "@ebaorc/components",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "components",
   "keywords": [
     "components"
@@ -26,7 +26,6 @@
     "doctor": "father doctor",
     "update:deps": "pnpm update --interactive --latest"
   },
-  "peerDependencies": {},
   "publishConfig": {
     "access": "public"
   },
