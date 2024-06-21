@@ -26,6 +26,10 @@
     "doctor": "father doctor",
     "update:deps": "pnpm update --interactive --latest"
   },
+  "peerDependencies": {
+    "@ebaorc/hooks": "latest",
+    "@ebaorc/utils": "latest"
+  },
   "publishConfig": {
     "access": "public"
   },
