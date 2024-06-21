@@ -35,3 +35,12 @@ $ pnpm run publish-all
 - 完成本地npm包调试后，记得将链接断开. `pnpm uninstall --global @ebaorc/utils` (取消项目与本地pnpm包之间的链接)
 - 删除link， pnpm uninstall --global `<package>`
 - 查看全局已链接的包 `npm ls -g --depth=0`
+
+## npm 设置源地址
+
+```bash
+# 官方npm
+npm config set registry=https://registry.npmjs.org/
+# 淘宝npm
+npm config set registry=https://registry.npmmirror.com/
+```
