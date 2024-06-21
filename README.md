@@ -2,16 +2,6 @@
 
 基于dumi2框架下的lerna pnpm
 
-## 准备工作
-
-```bash
-# 进入网址-登陆 npm
-https://packages.aliyun.com/npm/npm-registry/guide
-
-# 设置地址
-npm config set registry=https://packages.aliyun.com/65af7c6409908504f86d5d9d/npm/npm-registry/
-```
-
 ## Development
 
 ```bash
