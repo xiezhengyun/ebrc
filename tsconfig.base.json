@@ -4,6 +4,7 @@
     "declaration": true,
     "skipLibCheck": true,
     "esModuleInterop": true,
+    "noImplicitAny": false,
     "jsx": "react-jsx"
   },
   "exclude": ["node_modules", "lib"]

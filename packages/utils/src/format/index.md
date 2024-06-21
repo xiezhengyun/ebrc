@@ -5,6 +5,8 @@ toc: content
 
 # format
 
+此文件方法为格式化，转化数据
+
 ## resolveAlias
 
 根据传入参数aliasMap，构建一个新map返回
