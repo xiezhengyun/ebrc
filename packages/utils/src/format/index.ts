@@ -61,7 +61,7 @@ export function encryptPhoneNumber(phoneNumber: string): string {
 }
 
 export function showEmptyText<T>(txt: T, computedShow?: (arg0: T) => string) {
-  if (isNullOrUndefined(txt) || txt == '') {
+  if (isNullOrUndefined(txt) || txt === '') {
     return '-';
   }
   return computedShow ? computedShow(txt) : txt;

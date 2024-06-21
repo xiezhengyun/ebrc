@@ -2,6 +2,16 @@
 
 基于dumi2框架下的lerna pnpm
 
+## 准备工作
+
+```bash
+# 进入网址-登陆 npm
+https://packages.aliyun.com/npm/npm-registry/guide
+
+# 设置地址
+npm config set registry=https://packages.aliyun.com/65af7c6409908504f86d5d9d/npm/npm-registry/
+```
+
 ## Development
 
 ```bash
@@ -16,6 +26,14 @@ $ pnpm lerna run build
 
 # build docs
 $ pnpm run docs:build
+
+# version
+# {major}.{minor}.{patch}-{pre-release}
+# {主版本号}.{次版本号}.{修补版本号}-{非正式版版本号}
+$ pnpm run version:patch
+
+# 发布
+$ pnpm run publish-all
 ```
 
 ## 调试本地包
@@ -27,8 +45,3 @@ $ pnpm run docs:build
 - 完成本地npm包调试后，记得将链接断开. `pnpm uninstall --global @ebaorc/utils` (取消项目与本地pnpm包之间的链接)
 - 删除link， pnpm uninstall --global `<package>`
 - 查看全局已链接的包 `npm ls -g --depth=0`
-
-## 版本号
-
-{major}.{minor}.{patch}-{pre-release}
-{主版本号}.{次版本号}.{修补版本号}-{非正式版版本号}

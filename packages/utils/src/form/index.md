@@ -47,7 +47,7 @@ export default () => {
         rules={[PositiveIntegerRule, RequiredRules.rules[0]]}
       />
       <ProFormText
-        label="金额，大于0，最多2位小数"
+        label="金额，大于等于0，最多2位小数"
         name="AmountRule"
         rules={[AmountRule, RequiredRules.rules[0]]}
       />

@@ -58,3 +58,108 @@ export default () => (
 | 参数   | 说明 | 类型 | 默认值 |
 | ------ | ---- | ---- | ------ |
 | target | 数据 | any  | -      |
+
+<hr />
+
+## computedTableRowSerialNo
+
+表格序号，支持翻页，支持倒序
+
+<!-- ## 代码演示 -->
+
+```tsx
+import { computedTableRowSerialNo } from '@ebaorc/utils';
+import { Checkbox, Table } from 'antd';
+import { useState } from 'react';
+export default () => {
+  const [order, setOrder] = useState(false);
+  const onChange = () => {
+    setOrder(!order);
+  };
+  const pagination = {
+    total: 5,
+    current: 1,
+    pageSize: 10,
+  };
+  const columns = [
+    {
+      title: '序号',
+      key: 'index',
+      render: (text, record, index) =>
+        computedTableRowSerialNo({ pagination, index, isReverseOrder: order }),
+    },
+  ];
+  return (
+    <>
+      <Checkbox onChange={onChange}>Order</Checkbox>
+      <Table columns={columns} dataSource={[1, 2, 3, 4, 5]}></Table>
+    </>
+  );
+};
+```
+
+### API
+
+| 参数           | 说明           | 类型       | 默认值 |
+| -------------- | -------------- | ---------- | ------ |
+| pagination     | 表格的分页数据 | Pagination | -      |
+| index          | 表格的index    | number     | -      |
+| isReverseOrder | 顺序           | Boolean    | false  |
+
+## encryptPhoneNumber
+
+手机号中间4位加密，\*
+
+<!-- ## 代码演示 -->
+
+```tsx
+import { encryptPhoneNumber } from '@ebaorc/utils';
+const phone = 18155982440;
+export default () => (
+  <div>
+    <p>phone: {phone}</p>
+    <p>encryptPhone: {encryptPhoneNumber(phone)}</p>
+  </div>
+);
+```
+
+### API
+
+| 参数  | 说明   | 类型   | 默认值 |
+| ----- | ------ | ------ | ------ |
+| phone | 手机号 | string | -      |
+
+<hr />
+
+## showEmptyText
+
+统一展示数据。如果是null 或者 undefined，展示为 -。可以传入第二个参数，用来处理数据并展示。
+
+<!-- ## 代码演示 -->
+
+```tsx
+import { encryptPhoneNumber, showEmptyText } from '@ebaorc/utils';
+const text1 = 'text1';
+const text2 = null;
+const text3 = undefined;
+const text4 = 0;
+const text5 = 18155982440;
+export default () => (
+  <div>
+    <p>text1: {showEmptyText(text1)}</p>
+    <p>text2: {showEmptyText(text2)}</p>
+    <p>text3: {showEmptyText(text3)}</p>
+    <p>text4: {showEmptyText(text4)}</p>
+    <p>text5: {showEmptyText(text5, encryptPhoneNumber)}</p>
+  </div>
+);
+```
+
+### API
+
+| 参数         | 说明           | 类型   | 默认值 |
+| ------------ | -------------- | ------ | ------ |
+| txt          | 展示的文字     | string | -      |
+| computedShow | 处理文字的方法 | string | -      |
+
+<hr />
