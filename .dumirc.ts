@@ -3,9 +3,9 @@ import path from 'path';
 
 export default defineConfig({
   outputPath: 'dist',
-  publicPath: '/ebaorc/',
-  base: '/ebaorc/',
-  title: 'ebaorc',
+  publicPath: '/ebrc/',
+  base: '/ebrc/',
+  title: 'ebrc',
   apiParser: {},
   resolve: {
     atomDirs: [
@@ -22,7 +22,7 @@ export default defineConfig({
     'ebn-fe-utils': path.join(__dirname, 'packages/utils/src'),
   },
   themeConfig: {
-    name: 'ebaorc',
+    name: 'ebrc',
     footer: 'Copyright © 2024-present',
   },
   // monorepoRedirect: {
