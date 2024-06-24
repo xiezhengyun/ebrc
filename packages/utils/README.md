@@ -1,4 +1,4 @@
-# `@ebaorc/utils`
+# `ebn-fe-utils`
 
 > TODO: description
 

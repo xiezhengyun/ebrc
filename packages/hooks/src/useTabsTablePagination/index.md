@@ -20,9 +20,9 @@ import {
   ProFormDateRangePicker,
   ProFormText,
 } from '@ant-design/pro-components';
-import { StyledQueryFilter, TabSearchTools } from '@ebaorc/components';
-import { useTabsTablePagination } from '@ebaorc/hooks';
 import { Form } from 'antd';
+import { StyledQueryFilter, TabSearchTools } from 'ebn-fe-components';
+import { useTabsTablePagination } from 'ebn-fe-hooks';
 
 export default () => {
   const [searchForm] = Form.useForm();

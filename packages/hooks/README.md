@@ -1,4 +1,4 @@
-# `@ebaorc/hooks`
+# `ebn-fe-hooks`
 
 > TODO: description
 

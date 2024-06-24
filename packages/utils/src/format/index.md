@@ -14,7 +14,7 @@ toc: content
 <!-- ## 代码演示 -->
 
 ```tsx
-import { resolveAlias } from '@ebaorc/utils';
+import { resolveAlias } from 'ebn-fe-utils';
 const map = { name: 'abc', value: '123' };
 const newMap = resolveAlias(map, { value: 'key' });
 
@@ -42,7 +42,7 @@ export default () => (
 <!-- ## 代码演示 -->
 
 ```tsx
-import { isNullOrUndefined } from '@ebaorc/utils';
+import { isNullOrUndefined } from 'ebn-fe-utils';
 const flag = isNullOrUndefined(1);
 const flag2 = isNullOrUndefined(null);
 export default () => (
@@ -68,8 +68,8 @@ export default () => (
 <!-- ## 代码演示 -->
 
 ```tsx
-import { computedTableRowSerialNo } from '@ebaorc/utils';
 import { Checkbox, Table } from 'antd';
+import { computedTableRowSerialNo } from 'ebn-fe-utils';
 import { useState } from 'react';
 export default () => {
   const [order, setOrder] = useState(false);
@@ -113,7 +113,7 @@ export default () => {
 <!-- ## 代码演示 -->
 
 ```tsx
-import { encryptPhoneNumber } from '@ebaorc/utils';
+import { encryptPhoneNumber } from 'ebn-fe-utils';
 const phone = 18155982440;
 export default () => (
   <div>
@@ -138,7 +138,7 @@ export default () => (
 <!-- ## 代码演示 -->
 
 ```tsx
-import { encryptPhoneNumber, showEmptyText } from '@ebaorc/utils';
+import { encryptPhoneNumber, showEmptyText } from 'ebn-fe-utils';
 const text1 = 'text1';
 const text2 = null;
 const text3 = undefined;

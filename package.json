@@ -6,9 +6,9 @@
   },
   "scripts": {
     "build": "lerna run build",
-    "build:c": "lerna run build --scope=@ebaorc/components",
-    "build:h": "lerna run build --scope=@ebaorc/hooks",
-    "build:u": "lerna run build --scope=@ebaorc/utils",
+    "build:c": "lerna run build --scope=ebn-fe-components",
+    "build:h": "lerna run build --scope=ebn-fe-hooks",
+    "build:u": "lerna run build --scope=ebn-fe-utils",
     "dev": "dumi dev",
     "docs:build": "dumi build",
     "preinstall": "npx only-allow pnpm",

@@ -14,8 +14,8 @@ import {
   ProFormDateRangePicker,
   ProFormText,
 } from '@ant-design/pro-components';
-import { StyledQueryFilter } from '@ebaorc/components';
 import { Form } from 'antd';
+import { StyledQueryFilter } from 'ebn-fe-components';
 import { useState } from 'react';
 
 export default () => {

@@ -1,5 +1,5 @@
 {
-  "name": "@ebaorc/components",
+  "name": "ebn-fe-components",
   "version": "0.0.1",
   "description": "components",
   "keywords": [
@@ -27,8 +27,8 @@
     "update:deps": "pnpm update --interactive --latest"
   },
   "peerDependencies": {
-    "@ebaorc/hooks": "latest",
-    "@ebaorc/utils": "latest"
+    "ebn-fe-hooks": "latest",
+    "ebn-fe-utils": "latest"
   },
   "publishConfig": {
     "access": "public"

@@ -1,5 +1,5 @@
-import { resolveAlias } from '@ebaorc/utils';
 import { Tabs, TabsProps } from 'antd';
+import { resolveAlias } from 'ebn-fe-utils';
 import { Ref, forwardRef, memo, useImperativeHandle, useMemo } from 'react';
 
 type TabSearchToolOption = any; //TabsProps['items'][0];

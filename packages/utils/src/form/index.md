@@ -18,7 +18,7 @@ import {
   PhoneRule,
   PositiveIntegerRule,
   RequiredRules,
-} from '@ebaorc/utils';
+} from 'ebn-fe-utils';
 export default () => {
   const formFinish = (parmas) => {
     console.log(params);

@@ -1,6 +1,6 @@
-import { isNullOrUndefined } from '@ebaorc/utils';
 import { usePagination } from 'ahooks';
 import { PaginationOptions, Service } from 'ahooks/lib/usePagination/types';
+import { isNullOrUndefined } from 'ebn-fe-utils';
 import { useState } from 'react';
 
 type TPaginationHookParams = {

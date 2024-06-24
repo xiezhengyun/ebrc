@@ -9,7 +9,7 @@ group:
 
 # 什么是 ebaorc
 
-ebaorc目前包括，`@ebaorc/components`, `@ebaorc/hooks`, `@ebaorc/utils`。分贝是业务组件库，hooks，以及常用工具方法
+ebaorc目前包括，`ebn-fe-components`, `ebn-fe-hooks`, `ebn-fe-utils`。分贝是业务组件库，hooks，以及常用工具方法
 
 ## 特性
 

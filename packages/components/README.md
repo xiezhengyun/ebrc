@@ -1,4 +1,4 @@
-# `@ebaorc/components`
+# `ebn-fe-components`
 
 > TODO: description
 

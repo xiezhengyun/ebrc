@@ -17,9 +17,9 @@ export default defineConfig({
     entryFile: './.dumi/resolve-entry.ts',
   },
   alias: {
-    '@ebaorc/hooks': path.join(__dirname, 'packages/hooks/src'),
-    '@ebaorc/components': path.join(__dirname, 'packages/components/src'),
-    '@ebaorc/utils': path.join(__dirname, 'packages/utils/src'),
+    'ebn-fe-hooks': path.join(__dirname, 'packages/hooks/src'),
+    'ebn-fe-components': path.join(__dirname, 'packages/components/src'),
+    'ebn-fe-utils': path.join(__dirname, 'packages/utils/src'),
   },
   themeConfig: {
     name: 'ebaorc',

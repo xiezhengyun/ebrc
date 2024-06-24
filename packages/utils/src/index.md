@@ -12,13 +12,13 @@ todo.
 ### 安装
 
 ```bash
-$ npm i @ebaorc/utils
+$ npm i ebn-fe-utils
 ```
 
 ### 使用
 
 ```tsx
-// import { Foo22 } from '@ebaorc/components';
+// import { Foo22 } from 'ebn-fe-components';
 
 export default () => <span>1</span>;
 ```

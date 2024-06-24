@@ -10,8 +10,8 @@ toc: content
 ## 代码演示
 
 ```tsx
-import { TabSearchTools } from '@ebaorc/components';
 import { Form } from 'antd';
+import { TabSearchTools } from 'ebn-fe-components';
 import { useState } from 'react';
 
 export default () => {
